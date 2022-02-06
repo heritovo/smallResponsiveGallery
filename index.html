@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Code Boss</title>
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+	<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,600;0,700;0,900;1,400;1,600;1,700&display=swap" rel="stylesheet" />
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="index.css" />
+</head>
+<body>
+	<header>
+		<div class="container">
+			<h2><span>Quick </span>Gallery©</h2>
+			<nav class="navmenu">
+				<a class="navmenu po" href="#" >Home</a>
+				<a class="navmenu po" href="#" >Apparel</a>
+				<a class="navmenu po" href="#" >Electronics</a>
+				
+			</nav>
+			<button class="hamburger">
+				<div class="bar"></div>
+			</button>
+		</div>
+	</header>
+	<nav class="mobile-nav">
+		<a class="navmenu po" href="#" >Home</a>
+				<a class="navmenu po"  href="#" >Apparel</a>
+				<a class="navmenu po" href="#" >Electronics</a>
+	</nav>
+	<main>
+		
+		<section class="banner">
+			<div class="container">
+				<h1>
+					Products you're <br class="hide-mob" />
+					<span>not afraid</span> to look.
+				</h1>
+
+				<h3>Take a look at everything we have!</h3>
+
+				<a href="#" class="button" onclick="createThumbs=('all')">See All</a>
+				
+			</div>
+			<div class="custom-shape-divider-bottom-1644119664">
+				<svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+						<path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+				</svg>
+		</div>
+		</section>
+		
+
+
+		
+		<div class="custom-shape-divider-top-1644117889">
+			<svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+					<path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+			</svg>
+
+
+			
+	</div>
+		<section class="gallery">
+			
+			<div class="custom-shape-divider-bottom-1644118477">
+				<svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+						<path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+				</svg>
+		</div>
+
+		<div class="wrapper" >
+			
+			<h1>PHOTO ALBUM</h1>
+
+			<div class="custom-select">
+      
+			
+      <select name="album" id="album-selector" onchange="selectAlbum(this)">
+        <option value="Apparel" id="Apparel">Apparel</option>
+        <option value="Electronics" id="Electronics">Electronics</option>
+        <option value="all" id="all">All</option>
+      </select>
+			<span class="custom-arrow"></span>
+			</div>
+		
+    <div id="single">
+			<figure class="img-box">
+			<img id="single-img" src="" alt="Display full image here">
+			</figure>
+		</div>
+		<p id="single-img-caption"></p>
+		<div id="album"></div>
+		</div>
+
+		<br>
+		<br>
+		<div class="curve"></div>
+		
+		</section>
+		
+		
+		<section class="contact" id="contact">
+			<div class="container">
+				<h2>Contact</h2>
+				
+				<form>
+					<div class="form-grid">
+						<input type="text" name="name" id="name" placeholder="Name" class="form-element" />
+						<input type="email" name="email" id="email" placeholder="Email" class="form-element" />
+						<textarea name="message" id="message" placeholder="Messsage" class="form-area"></textarea>
+					</div>
+					<div class="right-align">
+						<input type="submit" value="Send message" class="button" />
+					</div>
+				</form>
+			</div>
+			
+		</section>
+	</main>
+	<script src="index.js"></script>
+</body>
+</html>
